@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class TicketDTO {
     private Long ticketId;
-    private String departureFrom; // Change the column name
+    private String departureFrom;
     private String departureTo;
     private double price;
     private UserDTO user;
